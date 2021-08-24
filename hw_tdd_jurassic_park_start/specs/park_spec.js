@@ -4,7 +4,10 @@ const Dinosaur = require('../models/dinosaur.js');
 
 describe('Park', function() {
 
+  let park;
+  
   beforeEach(function () {
+    park = new Park('JS_sic Park', 20, ['t-rex', 'stegasaurus', 'diplodoculous'] )
 
   })
 
